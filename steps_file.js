@@ -22,16 +22,22 @@ module.exports = function () {
 
             let randomEmail;
             const randomName = faker.name.findName(); // Rowan Nikolaus
-            const randomMobile = faker.phone.phoneNumber(); // (279) 329-8663 x30233
+            const randomMobile = faker.phone.phoneNumber('1-501-###-###'); // '501-039-841'
             const randomSubject = faker.lorem.sentence(); //
             const randomMessage = faker.lorem.sentences(); //
 
-            if (emailValid === false || !emailValid ) {
+            if (emailValid === false || !emailValid) {
                 let invalidEmail = ["", " ", "test", "test@", "test@test", "test@test.", "$%^&*()", "@A", "tesst@test. a", "/@/./", "...@..",]// get any email from the array
-                randomEmail = faker.internet.email(invalidEmail[Math.floor(Math.random() * invalidEmail.length)]);
+                randomEmail = (faker.name.findName() + invalidEmail[Math.floor(Math.random() * invalidEmail.length)]);
+                console.log(randomEmail);
+
             } else {
                 randomEmail = faker.internet.email();
+                console.log(randomEmail);
+
             }
+
+            console.log(randomEmail);
             return {
                 name: randomName,
                 email: randomEmail,
@@ -44,7 +50,7 @@ module.exports = function () {
         //This function to bypass captcha but we must need a correct userkey to initialize the setup
         bypassCaptcha() {
             // puppeteer usage as normal
-            puppeteer.launch({ headless: true }).then(async browser => {
+            puppeteer.launch({headless: true}).then(async browser => {
                 const page = await browser.newPage()
                 await page.goto('https://www.google.com/recaptcha/api2/demo')
 
@@ -55,13 +61,13 @@ module.exports = function () {
                     page.waitForNavigation(),
                     page.click(`#recaptcha-demo-submit`)
                 ])
-                await page.screenshot({ path: 'response.png', fullPage: true })
+                await page.screenshot({path: 'response.png', fullPage: true})
                 await browser.close()
             })
         },
 
         getTextFromElement(selector) {
-            I.waitForElement(selector);
+            this.waitForElement(selector, 30);
             return this.grabTextFrom(selector)
         },
     });

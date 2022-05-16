@@ -17,7 +17,6 @@ module.exports = {
         message: '[id="cf-5"]',
 
         nameError: '#name-error',
-        emailError: '#email-error',
         messageError: '#message-error',
         successMessage: '#success-message',
         errorMessage: '#error-message',
@@ -32,6 +31,8 @@ module.exports = {
         I.fillField(this.fields.message, message);
         I.wait(4);
     },
+
+
 
 
 }

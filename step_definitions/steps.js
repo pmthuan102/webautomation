@@ -21,6 +21,16 @@ And('I accept cookies', async () => {
     I.wait(2); //To make sure cookie has accepted and the page has loaded
 });
 
+Then('I see the error message {string}', async(expectedString) => {
+    let actualString = await I.getTextFromElement(Fragment.texts.errorMessage);
+    console.log(actualString);
+    if (actualString === expectedString) {
+        console.log('The expected string is present in the actual string');
+    } else {
+        return false;
+    }
+});
+
 Then('I could see the {string} text', (text) => {
     I.see(text);
 });
@@ -68,6 +78,8 @@ And('I wait for {int} seconds', (seconds) => {
 Then('I should see the {string} message', (string) => {
     I.see(string);
 });
+
+
 
 When('I click on the {string} link', (link) => {
     I.click(link);
@@ -208,7 +220,7 @@ And('I bypass the captcha', async () => {
 // For current situation, I put the waiting with timeout = 60s and we could manually bypass the captcha if needed
 And('I wait for the captcha to be bypassed', async () => {
     console.log('Waiting for the captcha to be bypassed...')
-    I.wait(60);
+    I.wait(15);
 });
 Then(/^I submit the Contact US form with random invalid data$/, function () {
 

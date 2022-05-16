@@ -42,7 +42,8 @@ exports.config = {
     plugins: {
         screenshotOnFail: {
             enabled: true
-        }
+        },
+        allure: {}
     },
     stepTimeout: 0,
     stepTimeoutOverride: [{

@@ -15,5 +15,6 @@ Feature: Company and Facebook profile
     And I switch to the "new" browser tab
     Then I should be on page "https://www.facebook.com/MusalaSoft?fref=ts"
     Then I could see the "Musala Soft" text
+    Then I could see the
     And I switch to the "previous" browser tab
     Then I should be on the "Company" page

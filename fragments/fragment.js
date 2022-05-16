@@ -11,6 +11,10 @@ module.exports = {
         COMPANY: '[href="https://www.musala.com/company/"]'
     },
 
+    texts: {
+        errorMessage: '//span[@class=\'wpcf7-not-valid-tip\']',
+    },
+
 
    async acceptCookies() {
         if(I.seeElement(this.buttons.cookies)){
