@@ -15,6 +15,10 @@ module.exports = {
         errorMessage: '//span[@class=\'wpcf7-not-valid-tip\']',
     },
 
+    async waitForPageLoad(time = 30) {
+        await I.waitForVisible('div#navbar', time);
+    },
+
 
    async acceptCookies() {
         if(I.seeElement(this.buttons.cookies)){

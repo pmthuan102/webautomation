@@ -1,0 +1,367 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652787447610' stop='1652787509502'>
+    <name>Filter job and apply CV</name>
+    <title>Filter job and apply CV</title>
+    <test-cases>
+        <test-case start='1652787447610' status='passed' stop='1652787478925'>
+            <name>Verify that user could filter job by location and apply the CV properly {"location":"Sofia"} @basic</name>
+            <title>Verify that user could filter job by location and apply the CV properly {"location":"Sofia"} @basic</title>
+            <labels>
+                <label name='tag' value='@basic'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1652787448071' status='passed' stop='1652787455850'>
+                    <name>Given I am on the homepage </name>
+                    <title>Given I am on the homepage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787448071' status='passed' stop='1652787455844'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652787455844' status='passed' stop='1652787455850'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787455844' status='passed' stop='1652787455849'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787455850' status='passed' stop='1652787459080'>
+                    <name>And I accept cookies </name>
+                    <title>And I accept cookies </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787455850' status='passed' stop='1652787457076'>
+                            <name>Fragment: acceptCookies </name>
+                            <title>Fragment: acceptCookies </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787455850' status='passed' stop='1652787455852'>
+                                    <name>I see element "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I see element "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787455852' status='passed' stop='1652787457075'>
+                                    <name>I click "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I click "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1652787457076' status='passed' stop='1652787459077'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787459080' status='passed' stop='1652787462794'>
+                    <name>When I am on the "careers" page </name>
+                    <title>When I am on the "careers" page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787459080' status='passed' stop='1652787462794'>
+                            <name>I am on page "/careers"</name>
+                            <title>I am on page "/careers"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787462794' status='passed' stop='1652787467821'>
+                    <name>And I click on the "Check our open positions" button </name>
+                    <title>And I click on the "Check our open positions" button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787462794' status='passed' stop='1652787464613'>
+                            <name>I click "Check our open positions"</name>
+                            <title>I click "Check our open positions"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652787464613' status='passed' stop='1652787467821'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787464613' status='passed' stop='1652787467811'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787467821' status='passed' stop='1652787473767'>
+                    <name>Then I should be on the "careers/join-us" page </name>
+                    <title>Then I should be on the "careers/join-us" page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787467821' status='passed' stop='1652787473767'>
+                            <name>I am on page "/careers/join-us"</name>
+                            <title>I am on page "/careers/join-us"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787473767' status='passed' stop='1652787473892'>
+                    <name>And I filter the Location from "get_location" to "Sofia" in the list </name>
+                    <title>And I filter the Location from "get_location" to "Sofia" in the list </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787473768' status='passed' stop='1652787473892'>
+                            <name>I select option "get_location", "Sofia"</name>
+                            <title>I select option "get_location", "Sofia"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787473892' status='passed' stop='1652787478898'>
+                    <name>And I wait for 5 seconds </name>
+                    <title>And I wait for 5 seconds </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787473892' status='passed' stop='1652787478898'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787478898' status='passed' stop='1652787478925'>
+                    <name>And I print out the list of Job name and Job link from "Sofia" </name>
+                    <title>And I print out the list of Job name and Job link from "Sofia" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787478898' status='passed' stop='1652787478914'>
+                            <name>careerPage: getAllJobInfo </name>
+                            <title>careerPage: getAllJobInfo </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787478898' status='passed' stop='1652787478913'>
+                                    <name>I grab attribute from all "div.card-container a", "href"</name>
+                                    <title>I grab attribute from all "div.card-container a", "href"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1652787478914' status='passed' stop='1652787478925'>
+                            <name>careerPage: getAllJobName </name>
+                            <title>careerPage: getAllJobName </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787478914' status='passed' stop='1652787478922'>
+                                    <name>I grab attribute from all "h2.card-jobsHot__title", "data-alt"</name>
+                                    <title>I grab attribute from all "h2.card-jobsHot__title", "data-alt"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1652787479158' status='passed' stop='1652787509247'>
+            <name>Verify that user could filter job by location and apply the CV properly {"location":"Skopje"} @basic</name>
+            <title>Verify that user could filter job by location and apply the CV properly {"location":"Skopje"} @basic</title>
+            <labels>
+                <label name='tag' value='@basic'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1652787479612' status='passed' stop='1652787487930'>
+                    <name>Given I am on the homepage </name>
+                    <title>Given I am on the homepage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787479612' status='passed' stop='1652787487918'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652787487918' status='passed' stop='1652787487930'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787487919' status='passed' stop='1652787487929'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787487930' status='passed' stop='1652787490715'>
+                    <name>And I accept cookies </name>
+                    <title>And I accept cookies </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787487930' status='passed' stop='1652787488699'>
+                            <name>Fragment: acceptCookies </name>
+                            <title>Fragment: acceptCookies </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787487930' status='passed' stop='1652787487932'>
+                                    <name>I see element "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I see element "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787487932' status='passed' stop='1652787488699'>
+                                    <name>I click "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I click "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1652787488699' status='passed' stop='1652787490713'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787490715' status='passed' stop='1652787494648'>
+                    <name>When I am on the "careers" page </name>
+                    <title>When I am on the "careers" page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787490715' status='passed' stop='1652787494648'>
+                            <name>I am on page "/careers"</name>
+                            <title>I am on page "/careers"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787494648' status='passed' stop='1652787498255'>
+                    <name>And I click on the "Check our open positions" button </name>
+                    <title>And I click on the "Check our open positions" button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787494648' status='passed' stop='1652787495024'>
+                            <name>I click "Check our open positions"</name>
+                            <title>I click "Check our open positions"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652787495024' status='passed' stop='1652787498255'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787495024' status='passed' stop='1652787498247'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787498255' status='passed' stop='1652787504095'>
+                    <name>Then I should be on the "careers/join-us" page </name>
+                    <title>Then I should be on the "careers/join-us" page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787498255' status='passed' stop='1652787504095'>
+                            <name>I am on page "/careers/join-us"</name>
+                            <title>I am on page "/careers/join-us"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787504095' status='passed' stop='1652787504221'>
+                    <name>And I filter the Location from "get_location" to "Skopje" in the list </name>
+                    <title>And I filter the Location from "get_location" to "Skopje" in the list </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787504095' status='passed' stop='1652787504221'>
+                            <name>I select option "get_location", "Skopje"</name>
+                            <title>I select option "get_location", "Skopje"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787504221' status='passed' stop='1652787509226'>
+                    <name>And I wait for 5 seconds </name>
+                    <title>And I wait for 5 seconds </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787504221' status='passed' stop='1652787509226'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787509226' status='passed' stop='1652787509247'>
+                    <name>And I print out the list of Job name and Job link from "Skopje" </name>
+                    <title>And I print out the list of Job name and Job link from "Skopje" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787509226' status='passed' stop='1652787509238'>
+                            <name>careerPage: getAllJobInfo </name>
+                            <title>careerPage: getAllJobInfo </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787509227' status='passed' stop='1652787509237'>
+                                    <name>I grab attribute from all "div.card-container a", "href"</name>
+                                    <title>I grab attribute from all "div.card-container a", "href"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1652787509238' status='passed' stop='1652787509247'>
+                            <name>careerPage: getAllJobName </name>
+                            <title>careerPage: getAllJobName </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787509238' status='passed' stop='1652787509245'>
+                                    <name>I grab attribute from all "h2.card-jobsHot__title", "data-alt"</name>
+                                    <title>I grab attribute from all "h2.card-jobsHot__title", "data-alt"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

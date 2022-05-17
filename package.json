@@ -9,8 +9,8 @@
         "codeceptjs:demo": "codeceptjs run --steps -c node_modules/@codeceptjs/examples",
         "codeceptjs:demo:headless": "HEADLESS=true codeceptjs run --steps -c node_modules/@codeceptjs/examples",
         "codeceptjs:demo:ui": "codecept-ui --app  -c node_modules/@codeceptjs/examples",
-        "codeceptjs:report": "allure serve output",
-        "codeceptjs:features":"codeceptjs run --plugins allure --features"
+        "codeceptjs:report": "allure serve output/total_Report/",
+        "codeceptjs:features":"codeceptjs run-multiple regression --plugins allure --features"
     },
     "devDependencies": {
         "@codeceptjs/configure": "^0.8.0",

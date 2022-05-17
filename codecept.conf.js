@@ -13,13 +13,13 @@ exports.config = {
     },
     multiple: {
         basic: {
-            browsers: ['chrome', 'firefox']
+            browsers: ['chrome', 'firefox'],
         },
-        smoke: {
+        regression: {
             parallel: {
                 chunks: 2,
             },
-            browsers: ['chrome'],
+            browsers: ['chrome', 'firefox'],
         }
     },
     include: {
@@ -45,14 +45,14 @@ exports.config = {
         },
         allure: {}
     },
-    stepTimeout: 0,
+    stepTimeout: 10,
     stepTimeoutOverride: [{
         pattern: 'wait.*',
-        timeout: 0
+        timeout: 10
     },
         {
             pattern: 'amOnPage',
-            timeout: 0
+            timeout: 5
         }
     ],
     tests: './*_test.js',

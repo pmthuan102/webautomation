@@ -22,7 +22,7 @@ module.exports = function () {
 
             let randomEmail;
             const randomName = faker.name.findName(); // Rowan Nikolaus
-            const randomMobile = faker.phone.phoneNumber('1-501-###-###'); // '501-039-841'
+            const randomMobile = faker.phone.phoneNumber('1-501-###-###'); // '1-501-039-841'
             const randomSubject = faker.lorem.sentence(); //
             const randomMessage = faker.lorem.sentences(); //
 
@@ -69,6 +69,14 @@ module.exports = function () {
         getTextFromElement(selector) {
             this.waitForElement(selector, 30);
             return this.grabTextFrom(selector)
+        },
+
+        //This function to moving all *.xml file from basic_* folder to total_Report folder
+        moveXMLFile() {
+            let files = fs.readdirSync('./basic_*');
+            files.forEach(file => {
+                fs.renameSync(`./basic_*/${file}`, `./total_Report/${file}`);
+            });
         },
     });
 }

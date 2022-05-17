@@ -1,0 +1,251 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652787599887' stop='1652787633448'>
+    <name>Company and Facebook profile</name>
+    <title>Company and Facebook profile</title>
+    <test-cases>
+        <test-case start='1652787599887' status='passed' stop='1652787633238'>
+            <name>Verify the Company and Facebook profile is displayed as expected @basic</name>
+            <title>Verify the Company and Facebook profile is displayed as expected @basic</title>
+            <labels>
+                <label name='tag' value='@basic'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1652787600325' status='passed' stop='1652787608086'>
+                    <name>Given I am on the homepage </name>
+                    <title>Given I am on the homepage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787600325' status='passed' stop='1652787608072'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652787608072' status='passed' stop='1652787608086'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787608072' status='passed' stop='1652787608085'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787608086' status='passed' stop='1652787610257'>
+                    <name>And I accept cookies </name>
+                    <title>And I accept cookies </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787608086' status='passed' stop='1652787608242'>
+                            <name>Fragment: acceptCookies </name>
+                            <title>Fragment: acceptCookies </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787608086' status='passed' stop='1652787608089'>
+                                    <name>I see element "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I see element "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787608089' status='passed' stop='1652787608242'>
+                                    <name>I click "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I click "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1652787608242' status='passed' stop='1652787610252'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787610257' status='passed' stop='1652787610929'>
+                    <name>When I click on the "company" link </name>
+                    <title>When I click on the "company" link </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787610257' status='passed' stop='1652787610929'>
+                            <name>I click "company"</name>
+                            <title>I click "company"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787610929' status='passed' stop='1652787614369'>
+                    <name>Then I should be on the "Company" page </name>
+                    <title>Then I should be on the "Company" page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787610929' status='passed' stop='1652787614369'>
+                            <name>I am on page "/Company"</name>
+                            <title>I am on page "/Company"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787614369' status='passed' stop='1652787616380'>
+                    <name>And I scroll to the "bottom" of the page </name>
+                    <title>And I scroll to the "bottom" of the page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787614369' status='passed' stop='1652787614370'>
+                            <name>I scroll page to bottom </name>
+                            <title>I scroll page to bottom </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652787614370' status='passed' stop='1652787616380'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787616380' status='passed' stop='1652787616390'>
+                    <name>Then I checking Leadership section should contain "Leadership" </name>
+                    <title>Then I checking Leadership section should contain "Leadership" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787616380' status='passed' stop='1652787616390'>
+                            <name>companyPage: getText "teamMember"</name>
+                            <title>companyPage: getText "teamMember"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787616380' status='passed' stop='1652787616385'>
+                                    <name>I wait for element "div[class='cm-content'] h2"</name>
+                                    <title>I wait for element "div[class='cm-content'] h2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787616385' status='passed' stop='1652787616388'>
+                                    <name>I grab text from "div[class='cm-content'] h2"</name>
+                                    <title>I grab text from "div[class='cm-content'] h2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787616390' status='passed' stop='1652787616536'>
+                    <name>And I click on the "facebook" icon </name>
+                    <title>And I click on the "facebook" icon </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787616390' status='passed' stop='1652787616536'>
+                            <name>Fragment: clickButton "facebook"</name>
+                            <title>Fragment: clickButton "facebook"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787616390' status='passed' stop='1652787616536'>
+                                    <name>I click "//span[@class='musala musala-icon-facebook']"</name>
+                                    <title>I click "//span[@class='musala musala-icon-facebook']"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787616536' status='passed' stop='1652787626545'>
+                    <name>And I wait for 10 seconds </name>
+                    <title>And I wait for 10 seconds </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787616536' status='passed' stop='1652787626544'>
+                            <name>I wait 10</name>
+                            <title>I wait 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787626545' status='passed' stop='1652787626654'>
+                    <name>And I switch to the "new" browser tab </name>
+                    <title>And I switch to the "new" browser tab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787626545' status='passed' stop='1652787626653'>
+                            <name>I switch to next tab </name>
+                            <title>I switch to next tab </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787626654' status='passed' stop='1652787630661'>
+                    <name>Then I should be on page "https://www.facebook.com/MusalaSoft?fref=ts" </name>
+                    <title>Then I should be on page "https://www.facebook.com/MusalaSoft?fref=ts" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787626654' status='passed' stop='1652787630655'>
+                            <name>I wait 4</name>
+                            <title>I wait 4</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652787630655' status='passed' stop='1652787630657'>
+                            <name>I grab current url </name>
+                            <title>I grab current url </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787630661' status='passed' stop='1652787630664'>
+                    <name>Then I could see the "Musala Soft" text </name>
+                    <title>Then I could see the "Musala Soft" text </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787630661' status='passed' stop='1652787630663'>
+                            <name>I see "Musala Soft"</name>
+                            <title>I see "Musala Soft"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787630664' status='passed' stop='1652787630780'>
+                    <name>And I switch to the "previous" browser tab </name>
+                    <title>And I switch to the "previous" browser tab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787630664' status='passed' stop='1652787630780'>
+                            <name>I switch to previous tab </name>
+                            <title>I switch to previous tab </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787630780' status='passed' stop='1652787633238'>
+                    <name>Then I should be on the "Company" page </name>
+                    <title>Then I should be on the "Company" page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787630780' status='passed' stop='1652787633238'>
+                            <name>I am on page "/Company"</name>
+                            <title>I am on page "/Company"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

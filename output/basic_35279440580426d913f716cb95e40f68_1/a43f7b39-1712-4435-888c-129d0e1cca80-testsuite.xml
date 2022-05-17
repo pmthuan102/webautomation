@@ -1,0 +1,1484 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652786312891' stop='1652787599857'>
+    <name>Submit Contact US form</name>
+    <title>Submit Contact US form</title>
+    <test-cases>
+        <test-case start='1652786312892' status='failed' stop='1652786348826'>
+            <name>Verify that user able to submit contact us form with a list accounts has been defined {"Name":"John","Email":"test@ab","Mobile":"9876543210","Subject":"Hello","Message":"Hello all, I'm John"} @smoke @basic</name>
+            <title>Verify that user able to submit contact us form with a list accounts has been defined {"Name":"John","Email":"test@ab","Mobile":"9876543210","Subject":"Hello","Message":"Hello all, I'm John"} @smoke @basic</title>
+            <labels>
+                <label name='tag' value='@smoke'/>
+                <label name='tag' value='@basic'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1652786313458' status='passed' stop='1652786323830'>
+                    <name>Given I am on the homepage </name>
+                    <title>Given I am on the homepage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786313459' status='passed' stop='1652786323807'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652786323810' status='passed' stop='1652786323830'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786323810' status='passed' stop='1652786323825'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786323830' status='passed' stop='1652786325974'>
+                    <name>And I accept cookies </name>
+                    <title>And I accept cookies </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786323830' status='passed' stop='1652786323968'>
+                            <name>Fragment: acceptCookies </name>
+                            <title>Fragment: acceptCookies </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786323830' status='passed' stop='1652786323834'>
+                                    <name>I see element "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I see element "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786323834' status='passed' stop='1652786323968'>
+                                    <name>I click "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I click "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1652786323969' status='passed' stop='1652786325974'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786325974' status='passed' stop='1652786327983'>
+                    <name>When I scroll to the "bottom" of the page </name>
+                    <title>When I scroll to the "bottom" of the page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786325974' status='passed' stop='1652786325976'>
+                            <name>I scroll page to bottom </name>
+                            <title>I scroll page to bottom </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652786325976' status='passed' stop='1652786327983'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786327983' status='passed' stop='1652786328177'>
+                    <name>And I click on the "Contact us" button </name>
+                    <title>And I click on the "Contact us" button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786327983' status='passed' stop='1652786328170'>
+                            <name>I click "Contact us"</name>
+                            <title>I click "Contact us"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652786328170' status='passed' stop='1652786328177'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786328170' status='passed' stop='1652786328176'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786328177' status='passed' stop='1652786328199'>
+                    <name>Then I could see the following data: </name>
+                    <title>Then I could see the following data: </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786328177' status='passed' stop='1652786328199'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786328177' status='passed' stop='1652786328184'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786328199' status='passed' stop='1652786333642'>
+                    <name>When I submit in the "John","test@ab","9876543210","Hello","Hello all, I'm John" fields </name>
+                    <title>When I submit in the "John","test@ab","9876543210","Hello","Hello all, I'm John" fields </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786328199' status='passed' stop='1652786333642'>
+                            <name>homePage: submitContactUSForm "John", "test@ab", "9876543210", "Hello", "Hello all, I'm John"</name>
+                            <title>homePage: submitContactUSForm "John", "test@ab", "9876543210", "Hello", "Hello all, I'm John"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786328199' status='passed' stop='1652786328386'>
+                                    <name>I fill field "[id="cf-1"]", "John"</name>
+                                    <title>I fill field "[id="cf-1"]", "John"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786328387' status='passed' stop='1652786328616'>
+                                    <name>I fill field "[id="cf-2"]", "test@ab"</name>
+                                    <title>I fill field "[id="cf-2"]", "test@ab"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786328617' status='passed' stop='1652786328926'>
+                                    <name>I fill field "[id="cf-3"]", "9876543210"</name>
+                                    <title>I fill field "[id="cf-3"]", "9876543210"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786328927' status='passed' stop='1652786329130'>
+                                    <name>I fill field "[id="cf-4"]", "Hello"</name>
+                                    <title>I fill field "[id="cf-4"]", "Hello"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786329130' status='passed' stop='1652786329627'>
+                                    <name>I fill field "[id="cf-5"]", "Hello all, I'm John"</name>
+                                    <title>I fill field "[id="cf-5"]", "Hello all, I'm John"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786329627' status='passed' stop='1652786333642'>
+                                    <name>I wait 4</name>
+                                    <title>I wait 4</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786333642' status='passed' stop='1652786348648'>
+                    <name>And I wait for the captcha to be bypassed </name>
+                    <title>And I wait for the captcha to be bypassed </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786333642' status='passed' stop='1652786348648'>
+                            <name>I wait 15</name>
+                            <title>I wait 15</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786348648' status='passed' stop='1652786348823'>
+                    <name>And I click on the "Send" button </name>
+                    <title>And I click on the "Send" button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786348649' status='passed' stop='1652786348818'>
+                            <name>I click "Send"</name>
+                            <title>I click "Send"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652786348818' status='passed' stop='1652786348823'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786348818' status='passed' stop='1652786348822'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786348823' status='failed' stop='1652786348826'>
+                    <name>Then I could see the "The e-mail address entered is invalid." text </name>
+                    <title>Then I could see the "The e-mail address entered is invalid." text </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786348823' status='failed' stop='1652786348825'>
+                            <name>I see "The e-mail address entered is invalid."</name>
+                            <title>I see "The e-mail address entered is invalid."</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='5ba71ef9-7a6e-4f43-b0f9-b421acf07906-attachment.png' type='image/png' size='51087'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1652786349311' status='failed' stop='1652786384116'>
+            <name>Verify that user able to submit contact us form with a list accounts has been defined {"Name":"Mary","Email":"11133","Mobile":"9876543210","Subject":"Hello","Message":"Hello all, I'm Mary"} @smoke @basic</name>
+            <title>Verify that user able to submit contact us form with a list accounts has been defined {"Name":"Mary","Email":"11133","Mobile":"9876543210","Subject":"Hello","Message":"Hello all, I'm Mary"} @smoke @basic</title>
+            <labels>
+                <label name='tag' value='@smoke'/>
+                <label name='tag' value='@basic'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1652786349733' status='passed' stop='1652786358994'>
+                    <name>Given I am on the homepage </name>
+                    <title>Given I am on the homepage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786349733' status='passed' stop='1652786358986'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652786358986' status='passed' stop='1652786358994'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786358986' status='passed' stop='1652786358991'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786358994' status='passed' stop='1652786361169'>
+                    <name>And I accept cookies </name>
+                    <title>And I accept cookies </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786358994' status='passed' stop='1652786359157'>
+                            <name>Fragment: acceptCookies </name>
+                            <title>Fragment: acceptCookies </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786358994' status='passed' stop='1652786358996'>
+                                    <name>I see element "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I see element "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786358996' status='passed' stop='1652786359157'>
+                                    <name>I click "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I click "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1652786359157' status='passed' stop='1652786361169'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786361169' status='passed' stop='1652786363177'>
+                    <name>When I scroll to the "bottom" of the page </name>
+                    <title>When I scroll to the "bottom" of the page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786361169' status='passed' stop='1652786361171'>
+                            <name>I scroll page to bottom </name>
+                            <title>I scroll page to bottom </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652786361171' status='passed' stop='1652786363177'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786363177' status='passed' stop='1652786363370'>
+                    <name>And I click on the "Contact us" button </name>
+                    <title>And I click on the "Contact us" button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786363177' status='passed' stop='1652786363366'>
+                            <name>I click "Contact us"</name>
+                            <title>I click "Contact us"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652786363366' status='passed' stop='1652786363370'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786363366' status='passed' stop='1652786363370'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786363370' status='passed' stop='1652786363386'>
+                    <name>Then I could see the following data: </name>
+                    <title>Then I could see the following data: </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786363370' status='passed' stop='1652786363386'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786363370' status='passed' stop='1652786363374'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786363386' status='passed' stop='1652786368717'>
+                    <name>When I submit in the "Mary","11133","9876543210","Hello","Hello all, I'm Mary" fields </name>
+                    <title>When I submit in the "Mary","11133","9876543210","Hello","Hello all, I'm Mary" fields </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786363386' status='passed' stop='1652786368717'>
+                            <name>homePage: submitContactUSForm "Mary", "11133", "9876543210", "Hello", "Hello all, I'm Mary"</name>
+                            <title>homePage: submitContactUSForm "Mary", "11133", "9876543210", "Hello", "Hello all, I'm Mary"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786363386' status='passed' stop='1652786363580'>
+                                    <name>I fill field "[id="cf-1"]", "Mary"</name>
+                                    <title>I fill field "[id="cf-1"]", "Mary"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786363581' status='passed' stop='1652786363779'>
+                                    <name>I fill field "[id="cf-2"]", "11133"</name>
+                                    <title>I fill field "[id="cf-2"]", "11133"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786363779' status='passed' stop='1652786364070'>
+                                    <name>I fill field "[id="cf-3"]", "9876543210"</name>
+                                    <title>I fill field "[id="cf-3"]", "9876543210"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786364070' status='passed' stop='1652786364272'>
+                                    <name>I fill field "[id="cf-4"]", "Hello"</name>
+                                    <title>I fill field "[id="cf-4"]", "Hello"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786364272' status='passed' stop='1652786364704'>
+                                    <name>I fill field "[id="cf-5"]", "Hello all, I'm Mary"</name>
+                                    <title>I fill field "[id="cf-5"]", "Hello all, I'm Mary"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786364704' status='passed' stop='1652786368717'>
+                                    <name>I wait 4</name>
+                                    <title>I wait 4</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786368717' status='passed' stop='1652786383728'>
+                    <name>And I wait for the captcha to be bypassed </name>
+                    <title>And I wait for the captcha to be bypassed </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786368717' status='passed' stop='1652786383728'>
+                            <name>I wait 15</name>
+                            <title>I wait 15</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786383728' status='passed' stop='1652786384114'>
+                    <name>And I click on the "Send" button </name>
+                    <title>And I click on the "Send" button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786383728' status='passed' stop='1652786384102'>
+                            <name>I click "Send"</name>
+                            <title>I click "Send"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652786384102' status='passed' stop='1652786384114'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786384103' status='passed' stop='1652786384114'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786384114' status='failed' stop='1652786384116'>
+                    <name>Then I could see the "The e-mail address entered is invalid." text </name>
+                    <title>Then I could see the "The e-mail address entered is invalid." text </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786384114' status='failed' stop='1652786384116'>
+                            <name>I see "The e-mail address entered is invalid."</name>
+                            <title>I see "The e-mail address entered is invalid."</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='270f2dab-ef31-4100-930d-c245e6c712e2-attachment.png' type='image/png' size='52879'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1652786387694' status='failed' stop='1652786433469'>
+            <name>Verify that user able to submit contact us form with a list accounts has been defined {"Name":"Thiago","Email":"test@   gmail.com","Mobile":"9876543210","Subject":"Hello","Message":"Hello all, I'm Thiago"} @smoke @basic</name>
+            <title>Verify that user able to submit contact us form with a list accounts has been defined {"Name":"Thiago","Email":"test@   gmail.com","Mobile":"9876543210","Subject":"Hello","Message":"Hello all, I'm Thiago"} @smoke @basic</title>
+            <labels>
+                <label name='tag' value='@smoke'/>
+                <label name='tag' value='@basic'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1652786388161' status='passed' stop='1652786407886'>
+                    <name>Given I am on the homepage </name>
+                    <title>Given I am on the homepage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786388161' status='passed' stop='1652786407878'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652786407878' status='passed' stop='1652786407886'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786407879' status='passed' stop='1652786407883'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786407886' status='passed' stop='1652786410360'>
+                    <name>And I accept cookies </name>
+                    <title>And I accept cookies </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786407886' status='passed' stop='1652786408358'>
+                            <name>Fragment: acceptCookies </name>
+                            <title>Fragment: acceptCookies </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786407886' status='passed' stop='1652786407888'>
+                                    <name>I see element "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I see element "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786407888' status='passed' stop='1652786408358'>
+                                    <name>I click "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I click "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1652786408358' status='passed' stop='1652786410359'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786410360' status='passed' stop='1652786412368'>
+                    <name>When I scroll to the "bottom" of the page </name>
+                    <title>When I scroll to the "bottom" of the page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786410360' status='passed' stop='1652786410361'>
+                            <name>I scroll page to bottom </name>
+                            <title>I scroll page to bottom </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652786410361' status='passed' stop='1652786412368'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786412368' status='passed' stop='1652786412584'>
+                    <name>And I click on the "Contact us" button </name>
+                    <title>And I click on the "Contact us" button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786412368' status='passed' stop='1652786412567'>
+                            <name>I click "Contact us"</name>
+                            <title>I click "Contact us"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652786412567' status='passed' stop='1652786412584'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786412567' status='passed' stop='1652786412584'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786412584' status='passed' stop='1652786412598'>
+                    <name>Then I could see the following data: </name>
+                    <title>Then I could see the following data: </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786412584' status='passed' stop='1652786412598'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786412584' status='passed' stop='1652786412588'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786412598' status='passed' stop='1652786418293'>
+                    <name>When I submit in the "Thiago","test@   gmail.com","9876543210","Hello","Hello all, I'm Thiago" fields </name>
+                    <title>When I submit in the "Thiago","test@   gmail.com","9876543210","Hello","Hello all, I'm Thiago" fields </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786412598' status='passed' stop='1652786418293'>
+                            <name>homePage: submitContactUSForm "Thiago", "test@   gmail.com", "9876543210", "Hello", "Hello all, I'm Thiago"</name>
+                            <title>homePage: submitContactUSForm "Thiago", "test@   gmail.com", "9876543210", "Hello", "Hello all, I'm Thiago"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786412598' status='passed' stop='1652786412815'>
+                                    <name>I fill field "[id="cf-1"]", "Thiago"</name>
+                                    <title>I fill field "[id="cf-1"]", "Thiago"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786412815' status='passed' stop='1652786413286'>
+                                    <name>I fill field "[id="cf-2"]", "test@   gmail.com"</name>
+                                    <title>I fill field "[id="cf-2"]", "test@   gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786413286' status='passed' stop='1652786413599'>
+                                    <name>I fill field "[id="cf-3"]", "9876543210"</name>
+                                    <title>I fill field "[id="cf-3"]", "9876543210"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786413599' status='passed' stop='1652786413802'>
+                                    <name>I fill field "[id="cf-4"]", "Hello"</name>
+                                    <title>I fill field "[id="cf-4"]", "Hello"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786413803' status='passed' stop='1652786414282'>
+                                    <name>I fill field "[id="cf-5"]", "Hello all, I'm Thiago"</name>
+                                    <title>I fill field "[id="cf-5"]", "Hello all, I'm Thiago"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786414282' status='passed' stop='1652786418293'>
+                                    <name>I wait 4</name>
+                                    <title>I wait 4</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786418293' status='passed' stop='1652786433296'>
+                    <name>And I wait for the captcha to be bypassed </name>
+                    <title>And I wait for the captcha to be bypassed </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786418293' status='passed' stop='1652786433296'>
+                            <name>I wait 15</name>
+                            <title>I wait 15</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786433296' status='passed' stop='1652786433467'>
+                    <name>And I click on the "Send" button </name>
+                    <title>And I click on the "Send" button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786433296' status='passed' stop='1652786433453'>
+                            <name>I click "Send"</name>
+                            <title>I click "Send"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652786433453' status='passed' stop='1652786433467'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786433453' status='passed' stop='1652786433466'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786433467' status='failed' stop='1652786433469'>
+                    <name>Then I could see the "The e-mail address entered is invalid." text </name>
+                    <title>Then I could see the "The e-mail address entered is invalid." text </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786433467' status='failed' stop='1652786433469'>
+                            <name>I see "The e-mail address entered is invalid."</name>
+                            <title>I see "The e-mail address entered is invalid."</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='ae273234-c211-4057-a873-82d8285af1c3-attachment.png' type='image/png' size='51525'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1652786433868' status='failed' stop='1652786474414'>
+            <name>Verify that user able to submit contact us form with a list accounts has been defined {"Name":"Alex","Email":"...@..","Mobile":"9876543210","Subject":"Hello","Message":"Hello all, I'm Alex"} @smoke @basic</name>
+            <title>Verify that user able to submit contact us form with a list accounts has been defined {"Name":"Alex","Email":"...@..","Mobile":"9876543210","Subject":"Hello","Message":"Hello all, I'm Alex"} @smoke @basic</title>
+            <labels>
+                <label name='tag' value='@smoke'/>
+                <label name='tag' value='@basic'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1652786434283' status='passed' stop='1652786448336'>
+                    <name>Given I am on the homepage </name>
+                    <title>Given I am on the homepage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786434283' status='passed' stop='1652786448325'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652786448325' status='passed' stop='1652786448336'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786448325' status='passed' stop='1652786448333'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786448336' status='passed' stop='1652786451291'>
+                    <name>And I accept cookies </name>
+                    <title>And I accept cookies </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786448336' status='passed' stop='1652786449278'>
+                            <name>Fragment: acceptCookies </name>
+                            <title>Fragment: acceptCookies </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786448336' status='passed' stop='1652786448340'>
+                                    <name>I see element "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I see element "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786448340' status='passed' stop='1652786449278'>
+                                    <name>I click "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I click "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1652786449278' status='passed' stop='1652786451291'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786451291' status='passed' stop='1652786453302'>
+                    <name>When I scroll to the "bottom" of the page </name>
+                    <title>When I scroll to the "bottom" of the page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786451291' status='passed' stop='1652786451292'>
+                            <name>I scroll page to bottom </name>
+                            <title>I scroll page to bottom </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652786451292' status='passed' stop='1652786453302'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786453302' status='passed' stop='1652786453810'>
+                    <name>And I click on the "Contact us" button </name>
+                    <title>And I click on the "Contact us" button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786453302' status='passed' stop='1652786453804'>
+                            <name>I click "Contact us"</name>
+                            <title>I click "Contact us"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652786453804' status='passed' stop='1652786453810'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786453804' status='passed' stop='1652786453810'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786453810' status='passed' stop='1652786453824'>
+                    <name>Then I could see the following data: </name>
+                    <title>Then I could see the following data: </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786453810' status='passed' stop='1652786453824'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786453810' status='passed' stop='1652786453814'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786453824' status='passed' stop='1652786459252'>
+                    <name>When I submit in the "Alex","...@..","9876543210","Hello","Hello all, I'm Alex" fields </name>
+                    <title>When I submit in the "Alex","...@..","9876543210","Hello","Hello all, I'm Alex" fields </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786453824' status='passed' stop='1652786459252'>
+                            <name>homePage: submitContactUSForm "Alex", "...@..", "9876543210", "Hello", "Hello all, I'm Alex"</name>
+                            <title>homePage: submitContactUSForm "Alex", "...@..", "9876543210", "Hello", "Hello all, I'm Alex"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786453824' status='passed' stop='1652786454009'>
+                                    <name>I fill field "[id="cf-1"]", "Alex"</name>
+                                    <title>I fill field "[id="cf-1"]", "Alex"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786454009' status='passed' stop='1652786454273'>
+                                    <name>I fill field "[id="cf-2"]", "...@.."</name>
+                                    <title>I fill field "[id="cf-2"]", "...@.."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786454273' status='passed' stop='1652786454602'>
+                                    <name>I fill field "[id="cf-3"]", "9876543210"</name>
+                                    <title>I fill field "[id="cf-3"]", "9876543210"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786454602' status='passed' stop='1652786454822'>
+                                    <name>I fill field "[id="cf-4"]", "Hello"</name>
+                                    <title>I fill field "[id="cf-4"]", "Hello"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786454822' status='passed' stop='1652786455245'>
+                                    <name>I fill field "[id="cf-5"]", "Hello all, I'm Alex"</name>
+                                    <title>I fill field "[id="cf-5"]", "Hello all, I'm Alex"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652786455245' status='passed' stop='1652786459252'>
+                                    <name>I wait 4</name>
+                                    <title>I wait 4</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786459252' status='passed' stop='1652786474254'>
+                    <name>And I wait for the captcha to be bypassed </name>
+                    <title>And I wait for the captcha to be bypassed </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786459252' status='passed' stop='1652786474253'>
+                            <name>I wait 15</name>
+                            <title>I wait 15</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786474254' status='passed' stop='1652786474412'>
+                    <name>And I click on the "Send" button </name>
+                    <title>And I click on the "Send" button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786474254' status='passed' stop='1652786474407'>
+                            <name>I click "Send"</name>
+                            <title>I click "Send"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652786474407' status='passed' stop='1652786474412'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652786474407' status='passed' stop='1652786474411'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652786474412' status='failed' stop='1652786474414'>
+                    <name>Then I could see the "The e-mail address entered is invalid." text </name>
+                    <title>Then I could see the "The e-mail address entered is invalid." text </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786474412' status='failed' stop='1652786474414'>
+                            <name>I see "The e-mail address entered is invalid."</name>
+                            <title>I see "The e-mail address entered is invalid."</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='6f35fee8-08d2-4609-9609-fcef84e9d2ea-attachment.png' type='image/png' size='50331'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1652786984309' status='failed' stop='1652787034282'>
+            <name>Verify that user able to submit contact us form with a list accounts has been defined {"Name":"Maxwell","Email":"","Mobile":"9876543210","Subject":"Hello","Message":"Hello all, I'm Maxwell"} @smoke @basic</name>
+            <title>Verify that user able to submit contact us form with a list accounts has been defined {"Name":"Maxwell","Email":"","Mobile":"9876543210","Subject":"Hello","Message":"Hello all, I'm Maxwell"} @smoke @basic</title>
+            <labels>
+                <label name='tag' value='@smoke'/>
+                <label name='tag' value='@basic'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1652786984741' status='passed' stop='1652787006867'>
+                    <name>Given I am on the homepage </name>
+                    <title>Given I am on the homepage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652786984741' status='passed' stop='1652787006857'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652787006857' status='passed' stop='1652787006867'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787006858' status='passed' stop='1652787006864'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787006867' status='passed' stop='1652787009515'>
+                    <name>And I accept cookies </name>
+                    <title>And I accept cookies </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787006867' status='passed' stop='1652787007515'>
+                            <name>Fragment: acceptCookies </name>
+                            <title>Fragment: acceptCookies </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787006867' status='passed' stop='1652787006870'>
+                                    <name>I see element "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I see element "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787006870' status='passed' stop='1652787007515'>
+                                    <name>I click "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I click "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1652787007515' status='passed' stop='1652787009515'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787009515' status='passed' stop='1652787011518'>
+                    <name>When I scroll to the "bottom" of the page </name>
+                    <title>When I scroll to the "bottom" of the page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787009515' status='passed' stop='1652787009517'>
+                            <name>I scroll page to bottom </name>
+                            <title>I scroll page to bottom </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652787009517' status='passed' stop='1652787011517'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787011518' status='passed' stop='1652787013057'>
+                    <name>And I click on the "Contact us" button </name>
+                    <title>And I click on the "Contact us" button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787011518' status='passed' stop='1652787013043'>
+                            <name>I click "Contact us"</name>
+                            <title>I click "Contact us"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652787013043' status='passed' stop='1652787013057'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787013043' status='passed' stop='1652787013056'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787013057' status='passed' stop='1652787013069'>
+                    <name>Then I could see the following data: </name>
+                    <title>Then I could see the following data: </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787013057' status='passed' stop='1652787013069'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787013057' status='passed' stop='1652787013060'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787013069' status='passed' stop='1652787018489'>
+                    <name>When I submit in the "Maxwell","","9876543210","Hello","Hello all, I'm Maxwell" fields </name>
+                    <title>When I submit in the "Maxwell","","9876543210","Hello","Hello all, I'm Maxwell" fields </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787013069' status='passed' stop='1652787018489'>
+                            <name>homePage: submitContactUSForm "Maxwell", , "9876543210", "Hello", "Hello all, I'm Maxwell"</name>
+                            <title>homePage: submitContactUSForm "Maxwell", , "9876543210", "Hello", "Hello all, I'm Maxwell"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787013069' status='passed' stop='1652787013292'>
+                                    <name>I fill field "[id="cf-1"]", "Maxwell"</name>
+                                    <title>I fill field "[id="cf-1"]", "Maxwell"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787013292' status='passed' stop='1652787013415'>
+                                    <name>I fill field "[id="cf-2"]", </name>
+                                    <title>I fill field "[id="cf-2"]", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787013415' status='passed' stop='1652787013746'>
+                                    <name>I fill field "[id="cf-3"]", "9876543210"</name>
+                                    <title>I fill field "[id="cf-3"]", "9876543210"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787013746' status='passed' stop='1652787013964'>
+                                    <name>I fill field "[id="cf-4"]", "Hello"</name>
+                                    <title>I fill field "[id="cf-4"]", "Hello"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787013964' status='passed' stop='1652787014478'>
+                                    <name>I fill field "[id="cf-5"]", "Hello all, I'm Maxwell"</name>
+                                    <title>I fill field "[id="cf-5"]", "Hello all, I'm Maxwell"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787014478' status='passed' stop='1652787018489'>
+                                    <name>I wait 4</name>
+                                    <title>I wait 4</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787018489' status='passed' stop='1652787033490'>
+                    <name>And I wait for the captcha to be bypassed </name>
+                    <title>And I wait for the captcha to be bypassed </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787018489' status='passed' stop='1652787033490'>
+                            <name>I wait 15</name>
+                            <title>I wait 15</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787033490' status='passed' stop='1652787034281'>
+                    <name>And I click on the "Send" button </name>
+                    <title>And I click on the "Send" button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787033490' status='passed' stop='1652787034276'>
+                            <name>I click "Send"</name>
+                            <title>I click "Send"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652787034276' status='passed' stop='1652787034281'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787034276' status='passed' stop='1652787034280'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787034281' status='failed' stop='1652787034282'>
+                    <name>Then I could see the "The e-mail address entered is invalid." text </name>
+                    <title>Then I could see the "The e-mail address entered is invalid." text </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787034281' status='failed' stop='1652787034282'>
+                            <name>I see "The e-mail address entered is invalid."</name>
+                            <title>I see "The e-mail address entered is invalid."</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='ba403605-7656-4891-aff9-81716c7881d3-attachment.png' type='image/png' size='54721'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1652787551550' status='passed' stop='1652787599664'>
+            <name>Verify that user able to submit contact us form with Random invalid format account @smoke</name>
+            <title>Verify that user able to submit contact us form with Random invalid format account @smoke</title>
+            <labels>
+                <label name='tag' value='@smoke'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1652787551983' status='passed' stop='1652787559701'>
+                    <name>Given I am on the homepage </name>
+                    <title>Given I am on the homepage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787551983' status='passed' stop='1652787559691'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652787559691' status='passed' stop='1652787559701'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787559692' status='passed' stop='1652787559698'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787559701' status='passed' stop='1652787561867'>
+                    <name>And I accept cookies </name>
+                    <title>And I accept cookies </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787559701' status='passed' stop='1652787559856'>
+                            <name>Fragment: acceptCookies </name>
+                            <title>Fragment: acceptCookies </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787559701' status='passed' stop='1652787559703'>
+                                    <name>I see element "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I see element "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787559704' status='passed' stop='1652787559855'>
+                                    <name>I click "[id="wt-cli-accept-all-btn"]"</name>
+                                    <title>I click "[id="wt-cli-accept-all-btn"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1652787559856' status='passed' stop='1652787561867'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787561867' status='passed' stop='1652787563882'>
+                    <name>When I scroll to the "bottom" of the page </name>
+                    <title>When I scroll to the "bottom" of the page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787561867' status='passed' stop='1652787561868'>
+                            <name>I scroll page to bottom </name>
+                            <title>I scroll page to bottom </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652787561868' status='passed' stop='1652787563882'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787563882' status='passed' stop='1652787564083'>
+                    <name>And I click on the "Contact us" button </name>
+                    <title>And I click on the "Contact us" button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787563882' status='passed' stop='1652787564071'>
+                            <name>I click "Contact us"</name>
+                            <title>I click "Contact us"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652787564072' status='passed' stop='1652787564083'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787564072' status='passed' stop='1652787564082'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787564083' status='passed' stop='1652787564098'>
+                    <name>Then I could see the following data: </name>
+                    <title>Then I could see the following data: </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787564083' status='passed' stop='1652787564098'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787564083' status='passed' stop='1652787564086'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787564098' status='passed' stop='1652787574430'>
+                    <name>Then I submit the Contact US form with random "invalid" data </name>
+                    <title>Then I submit the Contact US form with random "invalid" data </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787564098' status='passed' stop='1652787574430'>
+                            <name>homePage: submitContactUSForm "Deborah Marquardt PhD", "Diane Williamsontest@test", "1-501-416-790", "Consequatur architecto asperiores eos sed.", "Quo corporis quas laboriosam. Veniam porro id error libero est reiciendis dolor dolorem sit. Debitis culpa explicabo. Eaque amet vitae consequatur autem consequatur exercitationem aspernatur corrupti."</name>
+                            <title>homePage: submitContactUSForm "Deborah Marquardt PhD", "Diane Williamsontest@test", "1-501-416-790", "Consequatur architecto asperiores eos sed.", "Quo corporis quas laboriosam. Veniam porro id error libero est reiciendis dolor dolorem sit. Debitis culpa explicabo. Eaque amet vitae consequatur autem consequatur exercitationem aspernatur corrupti."</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787564098' status='passed' stop='1652787564569'>
+                                    <name>I fill field "[id="cf-1"]", "Deborah Marquardt PhD"</name>
+                                    <title>I fill field "[id="cf-1"]", "Deborah Marquardt PhD"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787564569' status='passed' stop='1652787565192'>
+                                    <name>I fill field "[id="cf-2"]", "Diane Williamsontest@test"</name>
+                                    <title>I fill field "[id="cf-2"]", "Diane Williamsontest@test"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787565192' status='passed' stop='1652787565614'>
+                                    <name>I fill field "[id="cf-3"]", "1-501-416-790"</name>
+                                    <title>I fill field "[id="cf-3"]", "1-501-416-790"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787565614' status='passed' stop='1652787566486'>
+                                    <name>I fill field "[id="cf-4"]", "Consequatur architecto asperiores eos sed."</name>
+                                    <title>I fill field "[id="cf-4"]", "Consequatur architecto asperiores eos sed."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787566487' status='passed' stop='1652787570418'>
+                                    <name>I fill field "[id="cf-5"]", "Quo corporis quas laboriosam. Veniam porro id error libero est reiciendis dolor dolorem sit. Debitis culpa explicabo. Eaque amet vitae consequatur autem consequatur exercitationem aspernatur corrupti."</name>
+                                    <title>I fill field "[id="cf-5"]", "Quo corporis quas laboriosam. Veniam porro id error libero est reiciendis dolor dolorem sit. Debitis culpa explicabo. Eaque amet vitae consequatur autem consequatur exercitationem aspernatur corrupti."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787570418' status='passed' stop='1652787574429'>
+                                    <name>I wait 4</name>
+                                    <title>I wait 4</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787574430' status='passed' stop='1652787589438'>
+                    <name>And I wait for the captcha to be bypassed </name>
+                    <title>And I wait for the captcha to be bypassed </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787574430' status='passed' stop='1652787589438'>
+                            <name>I wait 15</name>
+                            <title>I wait 15</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787589438' status='passed' stop='1652787589636'>
+                    <name>And I click on the "Send" button </name>
+                    <title>And I click on the "Send" button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787589438' status='passed' stop='1652787589624'>
+                            <name>I click "Send"</name>
+                            <title>I click "Send"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1652787589624' status='passed' stop='1652787589636'>
+                            <name>Fragment: waitForPageLoad </name>
+                            <title>Fragment: waitForPageLoad </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787589624' status='passed' stop='1652787589634'>
+                                    <name>I wait for visible "div#navbar", 30</name>
+                                    <title>I wait for visible "div#navbar", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787589636' status='passed' stop='1652787599651'>
+                    <name>And I wait for 10 seconds </name>
+                    <title>And I wait for 10 seconds </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787589636' status='passed' stop='1652787599651'>
+                            <name>I wait 10</name>
+                            <title>I wait 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652787599651' status='passed' stop='1652787599664'>
+                    <name>Then I see the error message "The e-mail address entered is invalid." </name>
+                    <title>Then I see the error message "The e-mail address entered is invalid." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652787599651' status='passed' stop='1652787599664'>
+                            <name>I: getTextFromElement "//span[@class='wpcf7-not-valid-tip']"</name>
+                            <title>I: getTextFromElement "//span[@class='wpcf7-not-valid-tip']"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1652787599652' status='passed' stop='1652787599658'>
+                                    <name>I wait for element "//span[@class='wpcf7-not-valid-tip']", 30</name>
+                                    <title>I wait for element "//span[@class='wpcf7-not-valid-tip']", 30</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1652787599658' status='passed' stop='1652787599663'>
+                                    <name>I grab text from "//span[@class='wpcf7-not-valid-tip']"</name>
+                                    <title>I grab text from "//span[@class='wpcf7-not-valid-tip']"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
