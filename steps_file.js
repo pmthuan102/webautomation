@@ -22,7 +22,7 @@ module.exports = function () {
 
             let randomEmail;
             const randomName = faker.name.findName(); // Rowan Nikolaus
-            const randomMobile = faker.phone.phoneNumber('1-501-###-###'); // '501-039-841'
+            const randomMobile = faker.phone.phoneNumber('1-501-###-###'); // '1-501-039-841'
             const randomSubject = faker.lorem.sentence(); //
             const randomMessage = faker.lorem.sentences(); //
 
@@ -66,9 +66,12 @@ module.exports = function () {
             })
         },
 
+        // This should help to grab text from anywhere on the page
         getTextFromElement(selector) {
             this.waitForElement(selector, 30);
             return this.grabTextFrom(selector)
         },
+
+
     });
 }

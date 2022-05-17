@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dfd93407-7cb7-4664-927b-f42966909173" name="Changes" comment="Update Report by using allure, prepare for visual testing">
+      <change afterPath="$PROJECT_DIR$/Documentations/report.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/TC1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/TC1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fragments/fragment.js" beforeDir="false" afterPath="$PROJECT_DIR$/fragments/fragment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/270f2dab-ef31-4100-930d-c245e6c712e2-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/5ba71ef9-7a6e-4f43-b0f9-b421acf07906-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/6f35fee8-08d2-4609-9609-fcef84e9d2ea-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/Verify_that_user_able_to_submit_contact_us_form_with_a_list_accounts_has_been_defin.failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/a43f7b39-1712-4435-888c-129d0e1cca80-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/ba403605-7656-4891-aff9-81716c7881d3-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/354c4322-4811-4500-b9cf-bfa9a30d31e8-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/5de18f40-33ef-42dc-a54b-0c24a294731e-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/70340d44-ccc6-4a6b-992d-f33b2910f248-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/Verify_that_user_able_to_submit_contact_us_form_with_a_list_accounts_has_been_defin.failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/e774f3ef-f35a-4bed-810a-94159d4db225-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/f9af9b8f-2d05-45f4-89d2-648abbf46d31-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/total_Report/20f350bd-6b6f-460c-9aa2-cd587d9aa8ff-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/total_Report/2bfb8850-ff4c-45df-8c35-dce993f072e4-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/total_Report/3b03cc77-d0b7-46ed-aea7-e54f993054fc-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/total_Report/978c3efc-774b-4fe3-82f5-99c22a34e00f-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/total_Report/b255a684-83cb-4d73-ae2b-c2ee23c0263a-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_definitions/steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/step_definitions/steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steps_file.js" beforeDir="false" afterPath="$PROJECT_DIR$/steps_file.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="294a1p6I1MOw4Y3JWyGuBS77sfi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2021.3.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Thiago\Documents\workspace\personal\webautomation\output\total_Report" />
+      <recent name="C:\Users\Thiago\Documents\workspace\personal\webautomation\output" />
+      <recent name="C:\Users\Thiago\Documents\workspace\personal\webautomation\node_modules" />
+      <recent name="C:\Users\Thiago\Downloads\webautomation\testData" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.test">
+    <configuration name="test" type="NodeJSConfigurationType" node-parameters="node_modules/codeceptjs/bin/codecept.js run --verbose --features ./features/TC3.feature" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Company.feature" type="cucumber.js" factoryName="Cucumber.js" temporary="true">
+      <option name="myFilePath" value="$PROJECT_DIR$/features/Company.feature" />
+      <option name="myNameFilter" />
+      <option name="cucumberJsArguments" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="codeceptjs:features" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="codeceptjs:features" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber.js.Company.feature" />
+      <item itemvalue="Node.js.test" />
+      <item itemvalue="npm.codeceptjs:features" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.codeceptjs:features" />
+        <item itemvalue="Cucumber.js.Company.feature" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfd93407-7cb7-4664-927b-f42966909173" name="Changes" comment="" />
+      <created>1652374598579</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652374598579</updated>
+      <workItem from="1652374599649" duration="4727000" />
+      <workItem from="1652409604785" duration="5623000" />
+      <workItem from="1652432290694" duration="14798000" />
+      <workItem from="1652623292917" duration="12405000" />
+      <workItem from="1652670851666" duration="3000" />
+      <workItem from="1652716752701" duration="72000" />
+      <workItem from="1652716880497" duration="6798000" />
+      <workItem from="1652772409252" duration="17473000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Update Report by using allure, prepare for visual testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Report by using allure, prepare for visual testing" />
+  </component>
+</project>

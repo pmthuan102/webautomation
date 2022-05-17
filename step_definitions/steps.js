@@ -4,16 +4,20 @@ const {assert} = require('assert');
 
 // Add in your custom step files
 
-Given('I am on the homepage', () => {
+Given('I am on the homepage', async () => {
     I.amOnPage('/');
+    await Fragment.waitForPageLoad()
 });
 
-When('I am on the {string} page', (page) => {
+When('I am on the {string} page', async (page) => {
     I.amOnPage('/' + page);
+    await Fragment.waitForPageLoad()
+
 })
 
-When('I am on the Homepage', () => {
+When('I am on the Homepage', async() => {
     I.amOnPage('/');
+    await Fragment.waitForPageLoad()
 });
 
 And('I accept cookies', async () => {
@@ -47,7 +51,8 @@ Then('I see the error message {string} popup from {string} should be {string}', 
 });
 
 
-Then('I could see the following data:', (table) => {
+Then('I could see the following data:', async (table) => {
+    await Fragment.waitForPageLoad()
     for (const id in table.rows) {
         if (id < 1) {
             continue;
@@ -87,10 +92,13 @@ When('I click on the {string} link', (link) => {
 
 When('I click on the {string} button', async (button) => {
     await Fragment.clickButton(button);
+    await Fragment.waitForPageLoad();
 });
 
-And('I click on the {string} button', (button) => {
+And('I click on the {string} button', async (button) => {
     I.click(button);
+    await Fragment.waitForPageLoad();
+
 });
 
 
@@ -187,12 +195,13 @@ Then('I could see the {string} section at the {string} screen should be {string}
     assert.equal(actual, expected, `${inName} is not ${expected}`);
 });
 
-Then(/^I submit in the (.*),(.*),(.*),(.*),(.*) fields$/, async (name, email, mobile, subject, message) => {
+Then('I submit in the {string},{string},{string},{string},{string} fields', async (name, email, mobile, subject, message) => {
     await homePage.submitContactUSForm(name, email, mobile, subject, message);
 });
 
-Then(/^I submit in the (.*), (.*), (.*), (.*), (.*) fields and upload CV with (.*)$/, async (name, email, mobile, linkedinProfile, message, file) => {
-    await careerPage.fillForm(name, email, mobile, linkedinProfile, message, file);
+And('I submit in the {string},{string},{string},{string},{string},{string} in Apply Form', async (name, email, mobile, linkedin, message, file) => {
+    I.waitForVisible('div#join_us_form', 10);
+    await careerPage.fillForm(name, email, mobile, linkedin, message, file);
 });
 
 Then('I submit the Contact US form with random {string} data', async (emailValid) => {
@@ -205,23 +214,39 @@ Then('I submit the Contact US form with random {string} data', async (emailValid
     await homePage.submitContactUSForm(userData.name, userData.email, userData.mobile, userData.subject, userData.message);
 });
 
+And('I select checkbox', async () => {
+    if(I.dontSeeCheckboxIsChecked('input#adConsentChx')){
+        I.checkOption('input#adConsentChx');
+    }else{
+        console.log('Checkbox is already checked');
+    }
+});
+
 And('I filter the Location from {string} to {string} in the list', (before, after) => {
     I.selectOption(before, after);
 });
 
 
 // Here's the function to bypass captcha but seems it requires some functionality to be implemented
-// In general, We not usually include the captcha in the testing environment but I still leave it here
+// In general, We not usually include the captcha in the testing environment, but I still leave it here
 And('I bypass the captcha', async () => {
     I.switchTo('[title="reCAPTCHA"]');
     I.bypassCaptcha()
 });
 
-// For current situation, I put the waiting with timeout = 60s and we could manually bypass the captcha if needed
+// For current situation, I put the waiting with timeout = 15s, and we could manually bypass the captcha if needed
 And('I wait for the captcha to be bypassed', async () => {
     console.log('Waiting for the captcha to be bypassed...')
     I.wait(15);
 });
-Then(/^I submit the Contact US form with random invalid data$/, function () {
 
+
+Then('I print out the list of Job name and Job link from {string}', async (location) =>{
+    let jobInfo = await careerPage.getAllJobInfo();
+    console.log("Location: " + location);
+    for (let i = 0; i < jobInfo.length; i++) {
+        let pattern = `Position: ${jobInfo[i].position}\nLink: ${jobInfo[i].link}\n`;
+        console.log(pattern);
+    }
 });
+
