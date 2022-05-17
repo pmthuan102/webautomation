@@ -3,22 +3,27 @@
 This project is building the UI automation framework based that using CodeceptJS and other libraries to simplify the
 test suite.
 
-# What containing in this automation framework?
+## What containing in this automation framework?
 
 - Support running multiple browsers and supporting parallel execution base on annotation settings.
 - Support BDD by using feature file to define the test suite/test cases and test data in gherkin format.
-- Support auto generating test data by using Faker library
-- Ability to capture pictures while failed any steps from test case.
+- Support auto generating test data by using Faker library.
+- Ability to capture pictures while failed any steps from test case then retry the failed steps/scenario automatically to reduce flaky test cases.
 - Using Page object model format to define the object of web page.
-- Support generate report with Allure command-line
+- Support generate report with Allure command-line.
+- Ability to do a visual testing by using ResembleJS library.
 
-# Prerequisites:
+## Framework overview:
+[<img src="Documentations/img.png" width="800"/>](POM.png)
 
-- Installed Node.js and npm (Node Package Manager)
-- Installed CodeceptJS and necessary libraries (faker, chai)
+
+## Prerequisites:
+
+- Installed Node.js and npm (Node Package Manager).
+- Installed CodeceptJS and necessary libraries (faker, chai).
 - The target web browsers should be installed and configured in the system.
 
-# How to config the framework?
+## How to config the framework?
 From the codecept.conf.js file, we have serveral options to adjust our test framework following below:
 - Multiple browsers and parrallel execution settings:
 ```js
@@ -34,6 +39,7 @@ multiple: {
   }
 },
 ```
+
 - Define page object model:
 ```js
  include: {
@@ -45,23 +51,12 @@ multiple: {
         Fragment: './fragments/fragment.js',
     },
 ```
-### Page object model: 
-[<img src="https://blog.testproject.io/wp-content/uploads/2020/12/Test-Automation-Framework-Benefits.jpg" width="800"/>](POM.png)
-
-
-
-
-# How to define the test suite?
+## How to define the test suite?
 - We define the test suites and test scenario in the feature file in [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) with [Gherkin syntax](https://cucumber.io/docs/gherkin/).
 - Step definition is defined the test steps that using in the test scenario.
 
-### Behavior driven development testing overview:
-[<img src="https://wpblog.semaphoreci.com/wp-content/uploads/tutorial-images/bdd-cycle-rails.png" width="800"/>](BDD.png)
 
-# How to use this automation framework?
-- Run the test suite by using the command line.
-
-# Trigger test suite and generate report:
+## How to use this automation framework?
 - Very simple, just run the command line to trigger all test suites:
 ```bash 
  npm run codeceptjs:features
@@ -71,6 +66,13 @@ multiple: {
  npm run codeceptjs:report
 ```
 
+## TODO:
+
+- Bypass captcha function (Ideally to using voice recognition then convert to text to bypass captcha).
+- Add more features to automation framework that support testing on mobile devices (Could do the testing on both simulator and real devices).
+- Enhance the stability while running the automation framework.
+
 
 ## References:
-- [CodeceptJS](https://codecept.io/), [Gherkin](https://cucumber.io/),[BDD](https://en.wikipedia.org/wiki/Behavior-driven_development)
+- Frameworks and Concept: [CodeceptJS](https://codecept.io/), [Gherkin](https://cucumber.io/),[BDD](https://en.wikipedia.org/wiki/Behavior-driven_development)
+- Libraries: [Faker](https://github.com/faker-js/faker), [Chai](https://www.chaijs.com/), [ResembleJS](https://github.com/rsmbl/Resemble.js),[Allure](https://allure.io/)
