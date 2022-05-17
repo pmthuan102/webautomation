@@ -66,17 +66,12 @@ module.exports = function () {
             })
         },
 
+        // This should help to grab text from anywhere on the page
         getTextFromElement(selector) {
             this.waitForElement(selector, 30);
             return this.grabTextFrom(selector)
         },
 
-        //This function to moving all *.xml file from basic_* folder to total_Report folder
-        moveXMLFile() {
-            let files = fs.readdirSync('./basic_*');
-            files.forEach(file => {
-                fs.renameSync(`./basic_*/${file}`, `./total_Report/${file}`);
-            });
-        },
+
     });
 }

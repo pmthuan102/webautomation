@@ -11,10 +11,9 @@ test suite.
 - Ability to capture pictures while failed any steps from test case then retry the failed steps/scenario automatically to reduce flaky test cases.
 - Using Page object model format to define the object of web page.
 - Support generate report with Allure command-line.
-- Ability to do a visual testing by using ResembleJS library.
 
 ## Framework overview:
-[<img src="Documentations/img.png" width="800"/>](POM.png)
+[<img src="Documentations/img.png" width="800"/>](img.png)
 
 
 ## Prerequisites:
@@ -23,7 +22,15 @@ test suite.
 - Installed CodeceptJS and necessary libraries (faker, chai).
 - The target web browsers should be installed and configured in the system.
 
-## How to config the framework?
+## How to Install and config the framework?
+#### Install the framework
+Just run the following command after cloned the repository to install the framework:
+
+```shell
+cd <to the local repository>
+npm install
+```
+#### Config the ramework
 From the codecept.conf.js file, we have serveral options to adjust our test framework following below:
 - Multiple browsers and parrallel execution settings:
 ```js
@@ -65,10 +72,13 @@ multiple: {
 ```bash 
  npm run codeceptjs:report
 ```
+Then the allure report server will be triggered and displayed the latest run on your default web browsers:[<img src="Documentations/report.png" width="800"/>](img.png)
+
 
 ## TODO:
 
 - Bypass captcha function (Ideally to using voice recognition then convert to text to bypass captcha).
+- Support visual testing by using ResembleJS library.
 - Add more features to automation framework that support testing on mobile devices (Could do the testing on both simulator and real devices).
 - Enhance the stability while running the automation framework.
 

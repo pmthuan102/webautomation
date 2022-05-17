@@ -9,12 +9,15 @@ Given('I am on the homepage', async () => {
     await Fragment.waitForPageLoad()
 });
 
-When('I am on the {string} page', (page) => {
+When('I am on the {string} page', async (page) => {
     I.amOnPage('/' + page);
+    await Fragment.waitForPageLoad()
+
 })
 
-When('I am on the Homepage', () => {
+When('I am on the Homepage', async() => {
     I.amOnPage('/');
+    await Fragment.waitForPageLoad()
 });
 
 And('I accept cookies', async () => {
@@ -225,13 +228,13 @@ And('I filter the Location from {string} to {string} in the list', (before, afte
 
 
 // Here's the function to bypass captcha but seems it requires some functionality to be implemented
-// In general, We not usually include the captcha in the testing environment but I still leave it here
+// In general, We not usually include the captcha in the testing environment, but I still leave it here
 And('I bypass the captcha', async () => {
     I.switchTo('[title="reCAPTCHA"]');
     I.bypassCaptcha()
 });
 
-// For current situation, I put the waiting with timeout = 60s and we could manually bypass the captcha if needed
+// For current situation, I put the waiting with timeout = 15s, and we could manually bypass the captcha if needed
 And('I wait for the captcha to be bypassed', async () => {
     console.log('Waiting for the captcha to be bypassed...')
     I.wait(15);

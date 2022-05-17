@@ -5,32 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfd93407-7cb7-4664-927b-f42966909173" name="Changes" comment="Update Report by using allure, prepare for visual testing">
-      <change afterPath="$PROJECT_DIR$/features/TC4.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/270f2dab-ef31-4100-930d-c245e6c712e2-attachment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/5ba71ef9-7a6e-4f43-b0f9-b421acf07906-attachment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/6f35fee8-08d2-4609-9609-fcef84e9d2ea-attachment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/Verify_that_user_able_to_submit_contact_us_form_with_a_list_accounts_has_been_defin.failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/a43f7b39-1712-4435-888c-129d0e1cca80-testsuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/ba403605-7656-4891-aff9-81716c7881d3-attachment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/354c4322-4811-4500-b9cf-bfa9a30d31e8-attachment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/5de18f40-33ef-42dc-a54b-0c24a294731e-attachment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/70340d44-ccc6-4a6b-992d-f33b2910f248-attachment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/Verify_that_user_able_to_submit_contact_us_form_with_a_list_accounts_has_been_defin.failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/e774f3ef-f35a-4bed-810a-94159d4db225-attachment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/f9af9b8f-2d05-45f4-89d2-648abbf46d31-attachment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/total_Report/20f350bd-6b6f-460c-9aa2-cd587d9aa8ff-testsuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/total_Report/2bfb8850-ff4c-45df-8c35-dce993f072e4-testsuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/total_Report/3b03cc77-d0b7-46ed-aea7-e54f993054fc-testsuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/total_Report/978c3efc-774b-4fe3-82f5-99c22a34e00f-testsuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/total_Report/ae273234-c211-4057-a873-82d8285af1c3-attachment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/total_Report/b255a684-83cb-4d73-ae2b-c2ee23c0263a-testsuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecept.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/codecept.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/Career.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/TC3.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/Company.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/TC2.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/ContactUS.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/TC1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentations/report.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/TC1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/TC1.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fragments/fragment.js" beforeDir="false" afterPath="$PROJECT_DIR$/fragments/fragment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/career.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/career.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/270f2dab-ef31-4100-930d-c245e6c712e2-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/5ba71ef9-7a6e-4f43-b0f9-b421acf07906-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/6f35fee8-08d2-4609-9609-fcef84e9d2ea-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/Verify_that_user_able_to_submit_contact_us_form_with_a_list_accounts_has_been_defin.failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/a43f7b39-1712-4435-888c-129d0e1cca80-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_35279440580426d913f716cb95e40f68_1/ba403605-7656-4891-aff9-81716c7881d3-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/354c4322-4811-4500-b9cf-bfa9a30d31e8-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/5de18f40-33ef-42dc-a54b-0c24a294731e-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/70340d44-ccc6-4a6b-992d-f33b2910f248-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/Verify_that_user_able_to_submit_contact_us_form_with_a_list_accounts_has_been_defin.failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/e774f3ef-f35a-4bed-810a-94159d4db225-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/basic_c517c9cff4c7f5bdd4c84ba47812620e_2/f9af9b8f-2d05-45f4-89d2-648abbf46d31-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/total_Report/20f350bd-6b6f-460c-9aa2-cd587d9aa8ff-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/total_Report/2bfb8850-ff4c-45df-8c35-dce993f072e4-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/total_Report/3b03cc77-d0b7-46ed-aea7-e54f993054fc-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/total_Report/978c3efc-774b-4fe3-82f5-99c22a34e00f-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/total_Report/b255a684-83cb-4d73-ae2b-c2ee23c0263a-testsuite.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/step_definitions/steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/step_definitions/steps.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/steps_file.js" beforeDir="false" afterPath="$PROJECT_DIR$/steps_file.js" afterDir="false" />
     </list>
@@ -129,7 +126,7 @@
       <workItem from="1652670851666" duration="3000" />
       <workItem from="1652716752701" duration="72000" />
       <workItem from="1652716880497" duration="6798000" />
-      <workItem from="1652772409252" duration="15848000" />
+      <workItem from="1652772409252" duration="17473000" />
     </task>
     <servers />
   </component>

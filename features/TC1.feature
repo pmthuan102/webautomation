@@ -23,10 +23,13 @@ Feature: Submit Contact US form
       | Alex    | ...@..            | 9876543210 | Hello   | Hello all, I'm Alex    |
       | Maxwell |                   | 9876543210 | Hello   | Hello all, I'm Maxwell |
 
+
+
+# Additional test cases to simulate another way of filling the form by using random UserData
 # This scenario should be run with the random valid account:
   @regression
   Scenario: Verify that user able to submit Contact US form with Random valid format account
-   Then I submit the Contact US form with random "valid" data
+    Then I submit the Contact US form with random "valid" data
     And I wait for the captcha to be bypassed
     And I click on the "Send" button
 
@@ -36,6 +39,4 @@ Feature: Submit Contact US form
     Then I submit the Contact US form with random "invalid" data
     And I wait for the captcha to be bypassed
     And I click on the "Send" button
-    # I'm putting 10 seconds wait because sometimes my internet is super slow
-    And I wait for 10 seconds
     Then I see the error message "The e-mail address entered is invalid."
