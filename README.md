@@ -1,5 +1,3 @@
-[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua)
-
 # Automation Framework by CodeceptJS
 
 This project is building the UI automation framework based that using CodeceptJS and other libraries to simplify the
@@ -88,3 +86,5 @@ Then the allure report server will be triggered and displayed the latest run on 
 ## References:
 - Frameworks and Concept: [CodeceptJS](https://codecept.io/), [Gherkin](https://cucumber.io/),[BDD](https://en.wikipedia.org/wiki/Behavior-driven_development)
 - Libraries: [Faker](https://github.com/faker-js/faker), [Chai](https://www.chaijs.com/), [ResembleJS](https://github.com/rsmbl/Resemble.js),[Allure](https://allure.io/)
+
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
