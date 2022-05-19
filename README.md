@@ -1,3 +1,5 @@
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua)
+
 # Automation Framework by CodeceptJS
 
 This project is building the UI automation framework based that using CodeceptJS and other libraries to simplify the
